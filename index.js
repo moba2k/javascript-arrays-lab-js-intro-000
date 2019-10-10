@@ -42,3 +42,11 @@ var kittens = ["Milo","Otis","Garfield"]; //define your array here
 function appendKitten (name='Broom') {
   return [...kittens, name];
 }
+
+var kittens = ["Milo","Otis","Garfield"]; //define your array here
+
+// Add your functions and code here - prepend return no change - spread
+
+function prependKitten (name) {
+  return [name, ...kittens];
+}
