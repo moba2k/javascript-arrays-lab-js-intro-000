@@ -50,3 +50,12 @@ var kittens = ["Milo","Otis","Garfield"]; //define your array here
 function prependKitten (name) {
   return [name, ...kittens];
 }
+
+var kittens = ["Milo","Otis","Garfield"]; //define your array here
+
+// Add your functions and code here - rem last kitten - return new, no change
+
+
+var kittens = ["Milo","Otis","Garfield"]; //define your array here
+
+// Add your functions and code here - rem first kitten - return new, no change 
