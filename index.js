@@ -59,7 +59,10 @@ function removeLastKitten () {
   return kittens.slice (0, kittens.length - 1);
 }
 
-
 var kittens = ["Milo","Otis","Garfield"]; //define your array here
 
-// Add your functions and code here - rem first kitten - return new, no change 
+// Add your functions and code here - rem first kitten - return new, no change - slice
+
+function removeFirstKitten () {
+  return kitten.slice(1)
+}
