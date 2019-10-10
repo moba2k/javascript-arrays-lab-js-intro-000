@@ -64,5 +64,5 @@ var kittens = ["Milo","Otis","Garfield"]; //define your array here
 // Add your functions and code here - rem first kitten - return new, no change - slice
 
 function removeFirstKitten () {
-  return kitten.slice(1)
+  return kittens.slice(1)
 }
